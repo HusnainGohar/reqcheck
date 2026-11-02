@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+.venv/
+.tools/
+frontend/node_modules/
+frontend/.build/
+frontend/.test-build/
+storage/uploads/
+storage/mongo/

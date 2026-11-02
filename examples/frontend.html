@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ReqCheck upload starter</title>
+<script src="vendor/react.development.js"></script><script src="vendor/react-dom.development.js"></script>
+<style>body{font:16px system-ui;margin:40px;max-width:800px}label,input,button{display:block;margin:12px 0}pre{white-space:pre-wrap}button{padding:10px}</style>
+<div id="root"></div><script>
+// Place this file at frontend/index.html; vendor paths are relative to that folder.
+const e=React.createElement;
+function App(){
+ const [project,setProject]=React.useState('');const [file,setFile]=React.useState(null);
+ const [message,setMessage]=React.useState('Create a project through POST /projects, then enter its ID.');const [busy,setBusy]=React.useState(false);
+ async function upload(ev){ev.preventDefault();if(!file||!project)return;setBusy(true);
+  try{const data=new FormData();data.append('file',file);
+   const r=await fetch('http://127.0.0.1:8000/projects/'+encodeURIComponent(project)+'/documents',{method:'POST',body:data});
+   const body=await r.json();if(!r.ok)throw Error(JSON.stringify(body.detail||body));setMessage(JSON.stringify(body,null,2));
+  }catch(err){setMessage(err.message);}finally{setBusy(false);}}
+ return e('main',null,e('h1',null,'ReqCheck'),e('p',null,'Upload a requirements document for extraction review.'),
+ e('form',{onSubmit:upload},e('label',null,'Project ID',e('input',{value:project,required:true,onChange:ev=>setProject(ev.target.value)})),
+ e('label',null,'TXT, DOCX or searchable PDF',e('input',{type:'file',accept:'.txt,.docx,.pdf',required:true,onChange:ev=>setFile(ev.target.files[0])})),
+ e('button',{disabled:busy||!file||!project,type:'submit'},busy?'Uploading…':'Upload')),
+ e('pre',{'aria-live':'polite'},message));}
+ReactDOM.render(e(App),document.getElementById('root'));
+</script></html>

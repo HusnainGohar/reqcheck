@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2015"],
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types"],
+    "outDir": ".build"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"]
+}

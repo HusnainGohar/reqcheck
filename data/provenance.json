@@ -1,0 +1,19 @@
+{
+  "retrieval_url": "https://raw.githubusercontent.com/AleksandarMitrevski/se-requirements-classification/master/0-datasets/tera-PROMISE%20NFR/nfr.arff",
+  "retrieved": "2026-11-01",
+  "original_notice": "Copyright 2007 Jane Cleland-Huang; CC BY-SA 3.0",
+  "raw_encoding": "cp1252",
+  "raw_sha256": "3d93f83641b76553ddce828c3f80e8c2b70269e51044046ec08b931383dc6c15",
+  "processed_sha256": "1cb11f2a65905cd3eac2672e3e9f6399fc542628a56bf37c0ce734faf843c2b2",
+  "raw_rows": 625,
+  "excluded_rows": [
+    "PROMISE-0426",
+    "PROMISE-0460"
+  ],
+  "reason": "Identical normalized statement labeled SE and F. Both excluded without adjudicating either label.",
+  "processed_rows_before_consistent_dedup": 622,
+  "limitation": "Retrieved from current mirror; byte identity with a pre-April-2020 archived snapshot not independently verified.",
+  "excluded_near_duplicate": "PROMISE-0402",
+  "retained_near_duplicate_representative": "PROMISE-0043",
+  "near_duplicate_audit": "One cross-project pair above 0.90 word-(1,2)-gram TF-IDF cosine; score 0.9563276482856331. Same availability proposition, later-ID representative excluded. Audit was exploratory, after an initial pilot execution; final runs use the cleaned corpus."
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "package": "fastapi",
+    "version": "0.52.0",
+    "released": "2020-03-01T21:40:36.354374Z",
+    "source": "https://pypi.org/project/fastapi/0.52.0/",
+    "requires_dist": [
+      "starlette ==0.13.2",
+      "pydantic >=0.32.2,<2.0.0",
+      "requests ; extra == \"all\"",
+      "aiofiles ; extra == \"all\"",
+      "jinja2 ; extra == \"all\"",
+      "python-multipart ; extra == \"all\"",
+      "itsdangerous ; extra == \"all\"",
+      "pyyaml ; extra == \"all\"",
+      "graphene ; extra == \"all\"",
+      "ujson ; extra == \"all\"",
+      "email_validator ; extra == \"all\"",
+      "uvicorn ; extra == \"all\"",
+      "async_exit_stack ; extra == \"all\"",
+      "async_generator ; extra == \"all\"",
+      "pyjwt ; extra == \"dev\"",
+      "passlib[bcrypt] ; extra == \"dev\"",
+      "autoflake ; extra == \"dev\"",
+      "flake8 ; extra == \"dev\"",
+      "uvicorn ; extra == \"dev\"",
+      "graphene ; extra == \"dev\"",
+      "mkdocs ; extra == \"doc\"",
+      "mkdocs-material ; extra == \"doc\"",
+      "markdown-include ; extra == \"doc\"",
+      "pytest >=4.0.0 ; extra == \"test\"",
+      "pytest-cov ; extra == \"test\"",
+      "mypy ; extra == \"test\"",
+      "black ; extra == \"test\"",
+      "isort ; extra == \"test\"",
+      "requests ; extra == \"test\"",
+      "email_validator ; extra == \"test\"",
+      "sqlalchemy ; extra == \"test\"",
+      "peewee ; extra == \"test\"",
+      "databases[sqlite] ; extra == \"test\"",
+      "orjson ; extra == \"test\"",
+      "async_exit_stack ; extra == \"test\"",
+      "async_generator ; extra == \"test\"",
+      "python-multipart ; extra == \"test\"",
+      "aiofiles ; extra == \"test\"",
+      "ujson ; extra == \"test\"",
+      "flask ; extra == \"test\""
+    ]
+  },
+  {
+    "package": "starlette",
+    "version": "0.13.2",
+    "released": "2020-02-20T15:43:18.861325Z",
+    "source": "https://pypi.org/project/starlette/0.13.2/",
+    "requires_dist": [
+      "aiofiles ; extra == 'full'",
+      "graphene ; extra == 'full'",
+      "itsdangerous ; extra == 'full'",
+      "jinja2 ; extra == 'full'",
+      "python-multipart ; extra == 'full'",
+      "pyyaml ; extra == 'full'",
+      "requests ; extra == 'full'",
+      "ujson ; extra == 'full'"
+    ]
+  },
+  {
+    "package": "pydantic",
+    "version": "1.4",
+    "released": "2020-01-24T11:48:37.651359Z",
+    "source": "https://pypi.org/project/pydantic/1.4/",
+    "requires_dist": [
+      "dataclasses (>=0.6); python_version < \"3.7\"",
+      "python-dotenv (>=0.10.4); extra == 'dotenv'",
+      "email-validator (>=1.0.3); extra == 'email'",
+      "typing-extensions (>=3.7.2); extra == 'typing_extensions'"
+    ]
+  },
+  {
+    "package": "uvicorn",
+    "version": "0.11.3",
+    "released": "2020-02-17T16:23:38.693700Z",
+    "source": "https://pypi.org/project/uvicorn/0.11.3/",
+    "requires_dist": [
+      "click (==7.*)",
+      "h11 (<0.10,>=0.8)",
+      "websockets (==8.*)",
+      "httptools (==0.1.*) ; sys_platform != \"win32\" and sys_platform != \"cygwin\" and platform_python_implementation != \"PyPy\"",
+      "uvloop (>=0.14.0) ; sys_platform != \"win32\" and sys_platform != \"cygwin\" and platform_python_implementation != \"PyPy\""
+    ]
+  },
+  {
+    "package": "pymongo",
+    "version": "3.10.1",
+    "released": "2020-01-08T01:16:33.727265Z",
+    "source": "https://pypi.org/project/pymongo/3.10.1/",
+    "requires_dist": [
+      "pymongocrypt (<2.0.0) ; extra == 'encryption'",
+      "pykerberos ; extra == 'gssapi'",
+      "python-snappy ; extra == 'snappy'",
+      "dnspython (<1.17.0,>=1.16.0) ; extra == 'srv'",
+      "ipaddress ; extra == 'tls'",
+      "zstandard ; extra == 'zstd'"
+    ]
+  },
+  {
+    "package": "python-multipart",
+    "version": "0.0.5",
+    "released": "2018-10-12T08:36:41.595595Z",
+    "source": "https://pypi.org/project/python-multipart/0.0.5/",
+    "requires_dist": null
+  },
+  {
+    "package": "numpy",
+    "version": "1.18.2",
+    "released": "2020-03-17T16:36:47.804465Z",
+    "source": "https://pypi.org/project/numpy/1.18.2/",
+    "requires_dist": null
+  },
+  {
+    "package": "scipy",
+    "version": "1.4.1",
+    "released": "2019-12-19T15:45:51.892056Z",
+    "source": "https://pypi.org/project/scipy/1.4.1/",
+    "requires_dist": [
+      "numpy (>=1.13.3)"
+    ]
+  },
+  {
+    "package": "pandas",
+    "version": "1.0.3",
+    "released": "2020-03-18T17:08:00.461350Z",
+    "source": "https://pypi.org/project/pandas/1.0.3/",
+    "requires_dist": [
+      "python-dateutil (>=2.6.1)",
+      "pytz (>=2017.2)",
+      "numpy (>=1.13.3)",
+      "pytest (>=4.0.2) ; extra == 'test'",
+      "pytest-xdist ; extra == 'test'",
+      "hypothesis (>=3.58) ; extra == 'test'"
+    ]
+  },
+  {
+    "package": "scikit-learn",
+    "version": "0.22.2.post1",
+    "released": "2020-03-04T11:51:23.246778Z",
+    "source": "https://pypi.org/project/scikit-learn/0.22.2.post1/",
+    "requires_dist": [
+      "numpy (>=1.11.0)",
+      "scipy (>=0.17.0)",
+      "joblib (>=0.11)",
+      "numpy (>=1.11.0) ; extra == 'alldeps'",
+      "scipy (>=0.17.0) ; extra == 'alldeps'"
+    ]
+  },
+  {
+    "package": "matplotlib",
+    "version": "3.2.1",
+    "released": "2020-03-18T22:04:58.050815Z",
+    "source": "https://pypi.org/project/matplotlib/3.2.1/",
+    "requires_dist": null
+  },
+  {
+    "package": "nltk",
+    "version": "3.4.5",
+    "released": "2019-08-20T10:55:21.854623Z",
+    "source": "https://pypi.org/project/nltk/3.4.5/",
+    "requires_dist": null
+  },
+  {
+    "package": "python-docx",
+    "version": "0.8.10",
+    "released": "2019-01-09T07:16:21.299873Z",
+    "source": "https://pypi.org/project/python-docx/0.8.10/",
+    "requires_dist": null
+  },
+  {
+    "package": "PyPDF2",
+    "version": "1.26.0",
+    "released": "2016-05-18T17:21:56.537758Z",
+    "source": "https://pypi.org/project/PyPDF2/1.26.0/",
+    "requires_dist": null
+  },
+  {
+    "package": "joblib",
+    "version": "0.14.1",
+    "released": "2019-12-10T08:08:04.432366Z",
+    "source": "https://pypi.org/project/joblib/0.14.1/",
+    "requires_dist": null
+  },
+  {
+    "package": "pytest",
+    "version": "5.3.5",
+    "released": "2020-01-29T16:53:17.444427Z",
+    "source": "https://pypi.org/project/pytest/5.3.5/",
+    "requires_dist": [
+      "py (>=1.5.0)",
+      "packaging",
+      "attrs (>=17.4.0)",
+      "more-itertools (>=4.0.0)",
+      "pluggy (<1.0,>=0.12)",
+      "wcwidth",
+      "pathlib2 (>=2.2.0) ; python_version < \"3.6\"",
+      "importlib-metadata (>=0.12) ; python_version < \"3.8\"",
+      "atomicwrites (>=1.0) ; sys_platform == \"win32\"",
+      "colorama ; sys_platform == \"win32\"",
+      "mypy (==v0.761) ; extra == 'checkqa-mypy'",
+      "argcomplete ; extra == 'testing'",
+      "hypothesis (>=3.56) ; extra == 'testing'",
+      "mock ; extra == 'testing'",
+      "nose ; extra == 'testing'",
+      "requests ; extra == 'testing'",
+      "xmlschema ; extra == 'testing'"
+    ]
+  },
+  {
+    "package": "requests",
+    "version": "2.23.0",
+    "released": "2020-02-19T18:50:59.409378Z",
+    "source": "https://pypi.org/project/requests/2.23.0/",
+    "requires_dist": [
+      "chardet (<4,>=3.0.2)",
+      "idna (<3,>=2.5)",
+      "urllib3 (!=1.25.0,!=1.25.1,<1.26,>=1.21.1)",
+      "certifi (>=2017.4.17)",
+      "pyOpenSSL (>=0.14) ; extra == 'security'",
+      "cryptography (>=1.3.4) ; extra == 'security'",
+      "PySocks (!=1.5.7,>=1.5.6) ; extra == 'socks'",
+      "win-inet-pton ; (sys_platform == \"win32\" and python_version == \"2.7\") and extra == 'socks'"
+    ]
+  },
+  {
+    "package": "pip",
+    "version": "20.0.2",
+    "released": "2020-01-24T14:50:44.419813Z",
+    "source": "https://pypi.org/project/pip/20.0.2/",
+    "requires_dist": null
+  },
+  {
+    "package": "setuptools",
+    "version": "46.0.0",
+    "released": "2020-03-08T19:57:37.155032Z",
+    "source": "https://pypi.org/project/setuptools/46.0.0/",
+    "requires_dist": [
+      "certifi (==2016.9.26) ; extra == 'certs'",
+      "sphinx ; extra == 'docs'",
+      "jaraco.packaging (>=6.1) ; extra == 'docs'",
+      "rst.linker (>=1.9) ; extra == 'docs'",
+      "wincertstore (==0.2) ; (sys_platform == \"win32\") and extra == 'ssl'",
+      "mock ; extra == 'tests'",
+      "pytest-flake8 ; extra == 'tests'",
+      "virtualenv (>=13.0.0) ; extra == 'tests'",
+      "pytest-virtualenv (>=1.2.7) ; extra == 'tests'",
+      "pytest (>=3.7) ; extra == 'tests'",
+      "wheel ; extra == 'tests'",
+      "coverage (>=4.5.1) ; extra == 'tests'",
+      "pytest-cov (>=2.5.1) ; extra == 'tests'",
+      "pip (>=19.1) ; extra == 'tests'",
+      "futures ; (python_version == \"2.7\") and extra == 'tests'",
+      "flake8-2020 ; (python_version >= \"3.6\") and extra == 'tests'",
+      "paver ; (python_version >= \"3.6\") and extra == 'tests'"
+    ]
+  },
+  {
+    "package": "wheel",
+    "version": "0.34.2",
+    "released": "2020-01-30T22:22:49.414574Z",
+    "source": "https://pypi.org/project/wheel/0.34.2/",
+    "requires_dist": [
+      "pytest (>=3.0.0) ; extra == 'test'",
+      "pytest-cov ; extra == 'test'"
+    ]
+  },
+  {
+    "package": "six",
+    "version": "1.14.0",
+    "released": "2020-01-15T18:10:19.607402Z",
+    "source": "https://pypi.org/project/six/1.14.0/",
+    "requires_dist": null
+  },
+  {
+    "package": "python-dateutil",
+    "version": "2.8.1",
+    "released": "2019-11-03T05:42:01.643152Z",
+    "source": "https://pypi.org/project/python-dateutil/2.8.1/",
+    "requires_dist": [
+      "six (>=1.5)"
+    ]
+  },
+  {
+    "package": "pytz",
+    "version": "2019.3",
+    "released": "2019-10-07T03:18:16.900665Z",
+    "source": "https://pypi.org/project/pytz/2019.3/",
+    "requires_dist": null
+  },
+  {
+    "package": "cycler",
+    "version": "0.10.0",
+    "released": "2016-02-16T05:12:17.349476Z",
+    "source": "https://pypi.org/project/cycler/0.10.0/",
+    "requires_dist": [
+      "six"
+    ]
+  },
+  {
+    "package": "kiwisolver",
+    "version": "1.1.0",
+    "released": "2019-04-24T22:47:49.966778Z",
+    "source": "https://pypi.org/project/kiwisolver/1.1.0/",
+    "requires_dist": null
+  },
+  {
+    "package": "pyparsing",
+    "version": "2.4.6",
+    "released": "2019-12-25T05:56:59.806217Z",
+    "source": "https://pypi.org/project/pyparsing/2.4.6/",
+    "requires_dist": null
+  },
+  {
+    "package": "lxml",
+    "version": "4.5.0",
+    "released": "2020-01-29T12:25:51.089282Z",
+    "source": "https://pypi.org/project/lxml/4.5.0/",
+    "requires_dist": [
+      "cssselect (>=0.7) ; extra == 'cssselect'",
+      "html5lib ; extra == 'html5'",
+      "BeautifulSoup4 ; extra == 'htmlsoup'",
+      "Cython (>=0.29.7) ; extra == 'source'"
+    ]
+  },
+  {
+    "package": "click",
+    "version": "7.1.1",
+    "released": "2020-03-09T18:50:57.426819Z",
+    "source": "https://pypi.org/project/click/7.1.1/",
+    "requires_dist": null
+  },
+  {
+    "package": "h11",
+    "version": "0.9.0",
+    "released": "2019-05-15T18:43:45.052483Z",
+    "source": "https://pypi.org/project/h11/0.9.0/",
+    "requires_dist": null
+  },
+  {
+    "package": "websockets",
+    "version": "8.1",
+    "released": "2019-11-01T13:40:26.520352Z",
+    "source": "https://pypi.org/project/websockets/8.1/",
+    "requires_dist": null
+  },
+  {
+    "package": "httptools",
+    "version": "0.1.1",
+    "released": "2020-02-08T00:33:19.884276Z",
+    "source": "https://pypi.org/project/httptools/0.1.1/",
+    "requires_dist": [
+      "Cython (==0.29.14) ; extra == 'test'"
+    ]
+  },
+  {
+    "package": "uvloop",
+    "version": "0.14.0",
+    "released": "2019-11-05T18:43:33.484316Z",
+    "source": "https://pypi.org/project/uvloop/0.14.0/",
+    "requires_dist": null
+  },
+  {
+    "package": "attrs",
+    "version": "19.3.0",
+    "released": "2019-10-15T05:52:40.702145Z",
+    "source": "https://pypi.org/project/attrs/19.3.0/",
+    "requires_dist": [
+      "coverage ; extra == 'azure-pipelines'",
+      "hypothesis ; extra == 'azure-pipelines'",
+      "pympler ; extra == 'azure-pipelines'",
+      "pytest (>=4.3.0) ; extra == 'azure-pipelines'",
+      "six ; extra == 'azure-pipelines'",
+      "zope.interface ; extra == 'azure-pipelines'",
+      "pytest-azurepipelines ; extra == 'azure-pipelines'",
+      "coverage ; extra == 'dev'",
+      "hypothesis ; extra == 'dev'",
+      "pympler ; extra == 'dev'",
+      "pytest (>=4.3.0) ; extra == 'dev'",
+      "six ; extra == 'dev'",
+      "zope.interface ; extra == 'dev'",
+      "sphinx ; extra == 'dev'",
+      "pre-commit ; extra == 'dev'",
+      "sphinx ; extra == 'docs'",
+      "zope.interface ; extra == 'docs'",
+      "coverage ; extra == 'tests'",
+      "hypothesis ; extra == 'tests'",
+      "pympler ; extra == 'tests'",
+      "pytest (>=4.3.0) ; extra == 'tests'",
+      "six ; extra == 'tests'",
+      "zope.interface ; extra == 'tests'"
+    ]
+  },
+  {
+    "package": "packaging",
+    "version": "20.3",
+    "released": "2020-03-05T07:48:26.245313Z",
+    "source": "https://pypi.org/project/packaging/20.3/",
+    "requires_dist": [
+      "pyparsing (>=2.0.2)",
+      "six"
+    ]
+  },
+  {
+    "package": "more-itertools",
+    "version": "8.2.0",
+    "released": "2020-01-29T12:52:32.130025Z",
+    "source": "https://pypi.org/project/more-itertools/8.2.0/",
+    "requires_dist": null
+  },
+  {
+    "package": "pluggy",
+    "version": "0.13.1",
+    "released": "2019-11-21T20:42:34.957732Z",
+    "source": "https://pypi.org/project/pluggy/0.13.1/",
+    "requires_dist": [
+      "importlib-metadata (>=0.12) ; python_version < \"3.8\"",
+      "pre-commit ; extra == 'dev'",
+      "tox ; extra == 'dev'"
+    ]
+  },
+  {
+    "package": "wcwidth",
+    "version": "0.1.9",
+    "released": "2020-03-23T06:21:31.883482Z",
+    "source": "https://pypi.org/project/wcwidth/0.1.9/",
+    "requires_dist": null
+  },
+  {
+    "package": "py",
+    "version": "1.8.1",
+    "released": "2019-12-27T12:07:31.467251Z",
+    "source": "https://pypi.org/project/py/1.8.1/",
+    "requires_dist": null
+  },
+  {
+    "package": "importlib-metadata",
+    "version": "1.5.0",
+    "released": "2020-01-29T04:15:31.042846Z",
+    "source": "https://pypi.org/project/importlib-metadata/1.5.0/",
+    "requires_dist": [
+      "zipp (>=0.5)",
+      "pathlib2 ; python_version < \"3\"",
+      "contextlib2 ; python_version < \"3\"",
+      "configparser (>=3.5) ; python_version < \"3\"",
+      "sphinx ; extra == 'docs'",
+      "rst.linker ; extra == 'docs'",
+      "packaging ; extra == 'testing'",
+      "importlib-resources ; (python_version < \"3.7\") and extra == 'testing'"
+    ]
+  },
+  {
+    "package": "zipp",
+    "version": "3.1.0",
+    "released": "2020-03-03T10:59:16.165395Z",
+    "source": "https://pypi.org/project/zipp/3.1.0/",
+    "requires_dist": [
+      "sphinx ; extra == 'docs'",
+      "jaraco.packaging (>=3.2) ; extra == 'docs'",
+      "rst.linker (>=1.9) ; extra == 'docs'",
+      "jaraco.itertools ; extra == 'testing'",
+      "func-timeout ; extra == 'testing'"
+    ]
+  },
+  {
+    "package": "atomicwrites",
+    "version": "1.3.0",
+    "released": "2019-02-01T10:38:06Z",
+    "source": "https://github.com/untitaker/python-atomicwrites/tree/1.3.0",
+    "requires_dist": null,
+    "pypi_current_upload": "2022-07-09T04:09:07.052260Z",
+    "note": "Historical tag commit date; current PyPI files were reuploaded in 2022, so current upload timestamps are not original release dates."
+  },
+  {
+    "package": "colorama",
+    "version": "0.4.3",
+    "released": "2019-12-06T20:46:31.424381Z",
+    "source": "https://pypi.org/project/colorama/0.4.3/",
+    "requires_dist": null
+  },
+  {
+    "package": "certifi",
+    "version": "2019.11.28",
+    "released": "2019-11-28T08:23:04.531784Z",
+    "source": "https://pypi.org/project/certifi/2019.11.28/",
+    "requires_dist": null
+  },
+  {
+    "package": "chardet",
+    "version": "3.0.4",
+    "released": "2017-06-08T14:34:33.552855Z",
+    "source": "https://pypi.org/project/chardet/3.0.4/",
+    "requires_dist": null
+  },
+  {
+    "package": "idna",
+    "version": "2.9",
+    "released": "2020-02-17T07:07:32.760868Z",
+    "source": "https://pypi.org/project/idna/2.9/",
+    "requires_dist": null
+  },
+  {
+    "package": "urllib3",
+    "version": "1.25.8",
+    "released": "2020-01-21T20:41:23.910305Z",
+    "source": "https://pypi.org/project/urllib3/1.25.8/",
+    "requires_dist": [
+      "brotlipy (>=0.6.0) ; extra == 'brotli'",
+      "pyOpenSSL (>=0.14) ; extra == 'secure'",
+      "cryptography (>=1.3.4) ; extra == 'secure'",
+      "idna (>=2.0.0) ; extra == 'secure'",
+      "certifi ; extra == 'secure'",
+      "ipaddress ; (python_version == \"2.7\") and extra == 'secure'",
+      "PySocks (!=1.5.7,<2.0,>=1.5.6) ; extra == 'socks'"
+    ]
+  }
+]

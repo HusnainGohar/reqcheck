@@ -1,0 +1,35 @@
+{
+  "status": "EXPERIMENT_RUN_REQUIRES_REVIEW",
+  "task": "binary",
+  "original_rows": 622,
+  "removed_exact_duplicates": 2,
+  "task_rows_after_dedup": 620,
+  "labels": [
+    "F",
+    "NFR"
+  ],
+  "class_counts": {
+    "NFR": 367,
+    "F": 253
+  },
+  "projects": 15,
+  "selected_for_deployment": "ablate:without_structure",
+  "selected_params": {
+    "clf__C": 0.1
+  },
+  "seed": 42,
+  "outer_splits": 5,
+  "inner_splits_max": 3,
+  "dataset_sha256": "1cb11f2a65905cd3eac2672e3e9f6399fc542628a56bf37c0ce734faf843c2b2",
+  "python": "3.7.6",
+  "sklearn": "0.22.2.post1",
+  "numpy": "1.18.2",
+  "scipy": "1.4.1",
+  "pandas": "1.0.3",
+  "matplotlib": "3.2.1",
+  "source_sha256": {
+    "run_experiments.py": "c982f09c20bffaa3a999b5b2c828244e307beb29c1dc0291537ef4cbfbfedf78",
+    "reqcheck_ml.py": "d840ec9710d97f72fb4ab6b8882830cc02e8124982e2f755cffbfe6e852a6f13"
+  },
+  "interpretation": "Fixed global label macro-F1. Absent fold classes count as zero. Inspect support tables. Selected-model score is selection-biased; evaluate externally for a final claim."
+}

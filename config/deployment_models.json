@@ -1,0 +1,13 @@
+{
+  "scikit_learn_version": "0.22.2.post1",
+  "binary": {
+    "path": "benchmark_results/binary/model.joblib",
+    "sha256": "36acf1ae918d9ab5796839285d2b5e012fd696ec3e6fb2069333053cb2ce461e",
+    "version": "binary-ablate-without-structure-c0.1"
+  },
+  "nfr": {
+    "path": "benchmark_results/nfr/model.joblib",
+    "sha256": "0e01ca2fd6e0b04ed305fc71ad85cd32ddd72e32d38a4cc00b6d413f5b2124df",
+    "version": "nfr-wordchar-svm-c0.1"
+  }
+}
